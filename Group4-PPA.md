@@ -2,23 +2,34 @@
 # Importance of Version Control Systems while coding
 
 
-## What is Version Control?
-Version control is a system and practice for managing changes in a file or digital content. By using a set of version control practices and tools, one can revert to a previous state of a project and view or manipulate its content. In fast-paced development environments, these systems make it easier for teams to work efficiently. Most often, these systems are designed to record every modification to the contents of the project. When there is an issue, those working on the project can compare previous versions to fix issues, errors, or inconsistencies with minimal disruption.
+## Introduction to Version Control
+Version control is a system and practice for managing changes in a file or digital content. By using a set of version control practices and tools, one can revert to a previous state of a project and view or manipulate its content. 
+
+In fast-paced development environments, these systems make it easier for teams to work efficiently. Most often, these systems are designed to record every modification to the contents of the project. When there is an issue, those working on the project can compare previous versions to fix issues, errors, or inconsistencies with minimal disruption (__Source__:  [Altassian](https://www.atlassian.com/git/tutorials/what-is-version-control)).
+
+![Version Control](Images/Version_Control.webp )
+__Image Source:__ [Simplilearn](https://www.simplilearn.com/ice9/free_resources_article_thumb/Version_Control.png)
 
 ## Source Code Version Control
-Source-code version control is a tool that is specifically used to manage code files. Like any other version control system, it is built to provide important features such as tracking the history of code, creating multiple versions of code, and merging changes made in separate branches, all while allowing for an easier way to resolve conflicts.
+Source-code version control is a tool that is specifically used to manage code files. 
 
-Today, there are multiple source-code version control tools available on the market. Some of the most popular ones are Git, Subversion, and Mercurial. Each of these has its own unique operations, rules, and advantages.
+- It keeps track of the history of code changes, including the author and time of the modifications. 
+- It allows the creation of multiple versions of the code, each in its branch, to enable teams to work on different features without disrupting the main code branch.
+- The tool also enables merging changes made in separate branches back into the main code branch and resolves any conflicts that arise during this process (__Source__:  [Open AI](https://chat.openai.com)).
+
+Today, there are multiple source-code version control tools available on the market. Some of the most popular ones are Git, Subversion, and Mercurial. Each of these has its own unique operations, rules, and advantages (__Source__:  [Open AI](https://chat.openai.com)).
 
 The nature of the project one is working on really defines which version control system is best for that specific project's needs. However, in this article, we will be focusing on the GitHub environment.
 
 ## Advantages of using a Version Control System 
 
 Using a source code version control system is essential in modern-day software development practices. These tools offer powerful features and advantages to teams working on a code project.
+
 Here's a list of a few features that a version control system can offer for your project:
-- It provides the ability to supervise and protect the codebase.
-- As already mentioned, it gives developers the ability to record all changes made to the code and save the code in those particular states.
-- By using a version control tool, a developer can analyze version history, giving them the power to revisit a code in any of the previous saved states.
+- It provides the ability to supervise and protect the codebase (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control)).
+- As already mentioned, it gives developers the ability to record all changes made to the code and save the code in those particular states (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control)).
+- By using a version control tool, a developer can analyze version history, giving them the power to revisit a code in any of the previous saved states (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control))
+![Version Control](Images/Backup.webp).
 - Not only does it provide a feature to revisit code, but it also allows developers to roll back the code to a previous state.
 - All these features give the developers an environment to experiment and make errors without affecting the final working code.
 - All these updates and experiments can easily be reviewed when using a version control tool.
@@ -201,9 +212,32 @@ public class Calculator {
 
 Now that we've looked at how to create commits in GitHub for better version control, let's look at the best practices.
 
-- Commit relatively When you commit, make sure it's understandable what you've really changed through those commits.
-- Commit small but often Always commit in small increments. This would reduce the risk of integration conflicts and make it easier to revert when a conflict does occur. Infrequent, large commits would create challenges in resolving disputes and understanding those changes.
-- Do not commit incomplete work Only commit your code to the repository when it's fully functional.
-- Use branches Using branches is an important feature of Git, which helps to keep different lines of development separate and reduces confusion.
+1. Commit Relatively:
+
+A commit should be relative to the work done. It means that the commit should be decriptive enough to explain what the changes in the code really are. If a person is trying to solve multiple problems, then each commit made should define the exact unique problem that is solved (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices)).
+
+2. Commit small but often:
+
+Committing code in small increments reduces the risk of integration conflicts. Regular, small commits and well-documented changes would make it easier to revert if any conflicts do occur. Committing frequently helps to keep changes small and focused Which inturn allows for frequent integration with other contributors. Infrequent, large commits create challenges in resolving disputes and understanding changes. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices), [Gitlab](https://about.gitlab.com/topics/version-control/version-control-best-practices))
+
+3. Never commit incomplete work:
+Only commit code fully functional code to the repository. This does not mean that you have to complete a big feature before committing. In fact, it is recommended to split the implementation of the feature into smaller, manageable chunks and commit early and frequently to keep the code up to date. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices))
+
+4. Use of Branches:
+
+Branching is a crucial feature of Git. It helps keep different lines of development separate and reduces confusion. To make the most of this feature, branches should be utilized in your development process for various tasks such as adding new features, fixing bugs, conducting experiments or exploring ideas. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices))
 
 In conclusion , A version control system like Git can greatly enhance software development processes by allowing for efficient tracking of code changes, enabling collaboration, and providing greater control over project history.
+
+# Resources
+
+[Altassian](https://www.atlassian.com/git/tutorials/what-is-version-control)
+
+[Simplilearn](https://www.simplilearn.com/ice9/free_resources_article_thumb/Version_Control.png)
+
+[Open AI](https://chat.openai.com)
+
+[Gitlab](https://about.gitlab.com/topics/version-control/version-control-best-practices)
+
+[Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices)
+
