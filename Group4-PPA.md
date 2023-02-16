@@ -3,9 +3,12 @@
 
 
 ## Introduction to Version Control
-Version control is a system and practice for managing changes in a file or digital content. By using a set of version control practices and tools, one can revert to a previous state of a project and view or manipulate its content. 
+Version control is a system and practice for managing changes in a file or digital content. By using a set of version control practices and tools, one can revert to a previous state of a project and view or manipulate its content. These are crucial tools that ensure that play a big part in ensuring the quality of the final product.
 
-In fast-paced development environments, these systems make it easier for teams to work efficiently. Most often, these systems are designed to record every modification to the contents of the project. When there is an issue, those working on the project can compare previous versions to fix issues, errors, or inconsistencies with minimal disruption (__Source__:  [Altassian](https://www.atlassian.com/git/tutorials/what-is-version-control)).
+Version control systems provide a centralized space for the project which allows contributors to access, modify and contribute simultaneously.
+
+In fast-paced development environments, these systems make it easier for teams to work efficiently. Most often, these systems are designed to record every modification to the contents of the project. When there is an issue, those working on the project can compare previous versions to fix issues, errors, or inconsistencies with minimal disruption.
+ (__Source__:  [Altassian](https://www.atlassian.com/git/tutorials/what-is-version-control)).
 
 ![Version Control](Images/Version_Control.webp )
 __Image Source:__ [Simplilearn](https://www.simplilearn.com/ice9/free_resources_article_thumb/Version_Control.png)
@@ -48,6 +51,8 @@ As you develop your project, you can keep track of the history of your commits t
 If you identify that your code requires changes, revisit those parts, make the changes, and recommit your code.
 - Step 6 - Push changes.
 Finally, all these commits need to be pushed to the remote repository. Once in the cloud, you can access your project from any other device.
+
+(Source:  [Open Source](https://opensource.com/article/18/1/step-step-guide-git)).
 
 ## Code Example for incremental commits
 
@@ -152,7 +157,7 @@ public class Calculator {
 }
 ```
 
-He can add additional statments to input a third number
+They can add additional statements to input a third number
 
 ```
 System.out.println("Please enter the third number:");
@@ -213,11 +218,11 @@ Now that we've looked at how to create commits in GitHub for better version cont
 
 1. Commit Relatively:
 
-A commit should be relative to the work done. It means that the commit should be decriptive enough to explain what the changes in the code really are. If a person is trying to solve multiple problems, then each commit made should define the exact unique problem that is solved (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices)).
+A commit should be relative to the work done. It means that the commit should be descriptive enough to explain what the changes in the code really are. If a person is trying to solve multiple problems, then each commit made should define the exact unique problem that is solved (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices)).
 
 2. Commit small but often:
 
-Committing code in small increments reduces the risk of integration conflicts. Regular, small commits and well-documented changes would make it easier to revert if any conflicts do occur. Committing frequently helps to keep changes small and focused Which inturn allows for frequent integration with other contributors. Infrequent, large commits create challenges in resolving disputes and understanding changes. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices), [Gitlab](https://about.gitlab.com/topics/version-control/version-control-best-practices))
+Committing code in small increments reduces the risk of integration conflicts. Regular, small commits and well-documented changes would make it easier to revert if any conflicts do occur. Committing frequently helps to keep changes small and focused Which in turn allows for frequent integration with other contributors. Infrequent, large commits create challenges in resolving disputes and understanding changes. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices), [Gitlab](https://about.gitlab.com/topics/version-control/version-control-best-practices))
 
 3. Never commit incomplete work:
 Only commit code fully functional code to the repository. This does not mean that you have to complete a big feature before committing. In fact, it is recommended to split the implementation of the feature into smaller, manageable chunks and commit early and frequently to keep the code up to date. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices))
@@ -226,7 +231,7 @@ Only commit code fully functional code to the repository. This does not mean tha
 
 Branching is a crucial feature of Git. It helps keep different lines of development separate and reduces confusion. To make the most of this feature, branches should be utilized in your development process for various tasks such as adding new features, fixing bugs, conducting experiments or exploring ideas. (Source:  [Git-Tower](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices))
 
-In conclusion , A version control system like Git can greatly enhance software development processes by allowing for efficient tracking of code changes, enabling collaboration, and providing greater control over project history.
+In conclusion, A version control system like Git can greatly enhance software development processes by allowing for efficient tracking of code changes, enabling collaboration, and providing greater control over project history. By leveraging features provided by these version control systems, developers can create better development workflows, reduce errors in code and always remain up-to date. 
 
 # Resources
 
