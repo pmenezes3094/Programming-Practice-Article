@@ -29,7 +29,6 @@ Here's a list of a few features that a version control system can offer for your
 - It provides the ability to supervise and protect the codebase (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control)).
 - As already mentioned, it gives developers the ability to record all changes made to the code and save the code in those particular states (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control)).
 - By using a version control tool, a developer can analyze version history, giving them the power to revisit a code in any of the previous saved states (__Source:__ [Simplilearn](https://www.simplilearn.com/tutorials/devops-tutorial/version-control))
-![Version Control](Images/Backup.webp).
 - Not only does it provide a feature to revisit code, but it also allows developers to roll back the code to a previous state.
 - All these features give the developers an environment to experiment and make errors without affecting the final working code.
 - All these updates and experiments can easily be reviewed when using a version control tool.
